@@ -11,7 +11,7 @@ public class Person {
     String getName() {
         return this.name;
     }
-    void setAge(byte age){
+    void setAge(Byte age){
         this.age = age;
     }
     byte getAge(){
