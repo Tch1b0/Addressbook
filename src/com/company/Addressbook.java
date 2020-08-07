@@ -12,7 +12,6 @@ public class Addressbook {
     }
     static void register(){
 
-        while (true) {
             System.out.println("Enter your name:");
             String name = scanner.nextLine();
             p.setName(name);
@@ -21,12 +20,11 @@ public class Addressbook {
                 System.out.println("Enter your age:");
                 byte age = scanner.nextByte();
                 p.setAge(age);
-                break;
             }
             catch (Exception e) {
                 System.out.println("I am sure you are not that old");
                 System.exit(0);
-            }
+
         }
 
     }
