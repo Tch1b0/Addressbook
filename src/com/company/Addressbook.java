@@ -7,10 +7,8 @@ public class Addressbook {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args){
-        while (true) {
-            register();
-            read();
-        }
+        register();
+        read();
     }
     static void register(){
 
