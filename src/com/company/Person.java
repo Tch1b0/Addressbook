@@ -3,7 +3,7 @@ package com.company;
 public class Person {
 
     String name;
-    byte age;
+    int age;
 
     void setName(String name){
         this.name = name;
@@ -11,10 +11,10 @@ public class Person {
     String getName() {
         return this.name;
     }
-    void setAge(Byte age){
+    void setAge(int age){
         this.age = age;
     }
-    byte getAge(){
+    int getAge(){
         return this.age;
     }
 

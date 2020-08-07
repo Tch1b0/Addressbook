@@ -7,8 +7,10 @@ public class Addressbook {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args){
-        register();
-        read();
+        while (true) {
+            register();
+            read();
+        }
     }
     static void register(){
 
@@ -18,7 +20,7 @@ public class Addressbook {
 
             try {
                 System.out.println("Enter your age:");
-                byte age = scanner.nextByte();
+                int age = scanner.nextInt();
                 p.setAge(age);
             }
             catch (Exception e) {
