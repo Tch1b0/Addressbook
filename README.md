@@ -9,7 +9,7 @@ I am still working on this project.
 - [ ] Menu
 - [ ] Enter more information
 - [ ] Enter custom information
-- [ ] Save contracts
+- [ ] Save contacts
 - [ ] Different contacts
 - [ ] Edit contacts
 
