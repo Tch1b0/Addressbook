@@ -6,11 +6,10 @@ Currently, you can first enter your name and age, to then print your information
 I am still working on this project.
 
 ### Upcoming features
-- [ ] Enter more information
-- [ ] Different contacts
-- [ ] Saved contracts
-- [ ] Edit contacts
 - [ ] Menu
+- [ ] Enter more information
 - [ ] Enter custom information
-
+- [ ] Save contracts
+- [ ] Different contacts
+- [ ] Edit contacts
 Go to issues for more details
