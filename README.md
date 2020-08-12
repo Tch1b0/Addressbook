@@ -6,11 +6,14 @@ Currently, you can first enter your name and age, to then print your information
 I am still working on this project.
 
 ### Upcoming features
-- [ ] Menu
+
+- [ ] read a certain contact
 - [ ] Enter more information
 - [ ] Enter custom information
-- [ ] Save contacts
 - [ ] Different contacts
 - [ ] Edit contacts
+- [x] Save contacts
+- [x] read all contacts
+- [x] Menu
 
 Go to issues for more details
