@@ -10,8 +10,8 @@ I am still working on this project.
 - [ ] read a certain contact
 - [ ] Enter more information
 - [ ] Enter custom information
-- [ ] Different contacts
 - [ ] Edit contacts
+- [x] Different contacts
 - [x] Save contacts
 - [x] read all contacts
 - [x] Menu
