@@ -2,8 +2,8 @@ package com.company;
 
 public class Person {
 
-    String name = "a";
-    int age = 0;
+    String name = "a"; //this is the standard 'name'
+    int age = 0;       //this is the standard 'age'
 
     void setName(String name){
         this.name = name;
