@@ -4,6 +4,7 @@ public class Person {
 
     String name = "a"; //this is the standard 'name'
     int age = 0;       //this is the standard 'age'
+    String country = "unknown";
 
     void setName(String name){
         this.name = name;
@@ -11,6 +12,7 @@ public class Person {
     String getName() {
         return this.name;
     }
+
     void setAge(int age){
         this.age = age;
     }
@@ -18,4 +20,10 @@ public class Person {
         return this.age;
     }
 
+    void setCountry(String country){
+        this.country = country;
+    }
+    String getCountry(){
+        return this.country;
+    }
 }
