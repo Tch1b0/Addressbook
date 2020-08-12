@@ -52,17 +52,12 @@ public class Addressbook {
                 System.exit(0);                   //the program gets closed (because of a current bug)
             }
             while (p.getCountry() == "unknown") {
-                System.out.println("In which country do you live?(type e for no answer)");
+                System.out.println("In which country do you live?");
                 String country = scanner.nextLine();
                 if (country != "unknown" & country != "n" & country.length() > 2 ) {
                     p.setCountry(country);
                     break;
                 }
-                if (country == "e") {
-                    p.setCountry("unknown");
-                    break;
-                }
-
                 }
             }
 
@@ -87,13 +82,18 @@ public class Addressbook {
             }
         }
         static void readMenu () {
-            System.out.println(">>list all(a) certain person(name of person) go back(e)<<"); //the '>>' are there so you know you are not in the main menu
-            String readmode = scanner.nextLine();
+        while(true){
+                System.out.println(">>list all(a) certain person(name of person) go back(e)<<"); //the '>>' are there so you know you are not in the main menu
+                String readmode = scanner.nextLine();
 
-            if (readmode == "a") readAll();
-            else {
-                System.out.println("This feature is still being developed");
+                if (readmode == "a") {
+                    readAll();
+                    break;
+                }
+                else {
+                    System.out.println("This feature is still being developed");
             }
+        }
         }
 
         static void readAll () {
